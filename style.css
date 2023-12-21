@@ -1,0 +1,24 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+#titleContainer {
+  margin: 25px auto;
+}
+
+#searchContainer {
+  margin: 50px auto;
+}
+
+#weatherContainer {
+  visibility: hidden;
+  width: 100%;
+}
+
+#lastUpdatedMainContainer,
+#locationMainContainer,
+#temperatureMainContainer {
+  margin: 25px auto;
+}
