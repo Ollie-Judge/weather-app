@@ -11,7 +11,7 @@ const searchButton = document.getElementById("searchButton");
 
 searchButton.addEventListener("click", async function () {
   const response = await fetch(
-    `https://api.weatherapi.com/v1/current.json?key=8dcca1e635bb40a9be1140244231812&q=London&aqi=no`,
+    `https://api.weatherapi.com/v1/current.json?key=8dcca1e635bb40a9be1140244231812&q=${locationSearch.value}&aqi=no`,
     {
       mode: "cors",
     }
